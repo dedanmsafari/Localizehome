@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+body {
+  overflow-x: hidden;
+  margin: 0;
+  font-family: Cabin, sans-serif;
+  color: #54575a;
+  background: linear-gradient(
+    180deg,
+    #ffffff 1.56%,
+    #edeae7 56.25%,
+    rgba(237, 234, 231, 0.72) 100%
+  );
+}
+
+.wrapper {
+  position: relative;
+  width: 1440px;
+  min-height: 1388px;
+  margin: auto;
+}
+.brand-img {
+  position: absolute;
+  width: 174px;
+  height: 51px;
+  left: 222px;
+  top: 72px;
+}
+
+.title {
+  position: absolute;
+  width: 458px;
+  height: 135px;
+  left: 220px;
+  top: 238px;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 67px;
+}
+.text {
+  position: absolute;
+  width: 394px;
+  height: 96px;
+  left: 221px;
+  top: 403px;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+}
+.app-store-btn {
+  position: absolute;
+  width: 138.44px;
+  height: 46.28px;
+  left: 221px;
+  top: 531px;
+}
+.app-store-btn img {
+  width: 138.44px;
+  height: 46.28px;
+}
+.google-play-btn {
+  position: absolute;
+  width: 156.19px;
+  height: 46.28px;
+  left: 381.81px;
+  top: 531px;
+}
+.google-play-btn img {
+  width: 156.19px;
+  height: 46.28px;
+}
+.main-image-container {
+  position: absolute;
+  width: 304px;
+  height: 607px;
+  left: 923px;
+  top: 114px;
+}
+.main-image-container img {
+  height: 568.8px;
+}
+.home-img {
+  position: absolute;
+  width: 535.72px;
+  height: 309.27px;
+  left: 625px;
+  top: 812px;
+}
+.meetups-img {
+  position: absolute;
+  width: 426px;
+  height: 309px;
+  left: 1014px;
+  top: 898px;
+}
+.messages-img {
+  position: absolute;
+  width: 535.72px;
+  height: 309.27px;
+  left: 167px;
+  top: 1072px;
+}
+.myprofile-img {
+  position: absolute;
+  width: 535.72px;
+  height: 309.27px;
+  left: 179px;
+  top: 757px;
+}
+.usersprofile-img {
+  position: absolute;
+  width: 535.72px;
+  height: 206px;
+  left: 520px;
+  top: 1178px;
+}
